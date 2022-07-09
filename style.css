@@ -102,6 +102,10 @@ main {
   cursor: pointer;
   border: none;
 }
+.icons-button:hover {
+  filter: brightness(95%);
+}
+
 .login-icons .icons-button:nth-child(1) {
   background-color: var(--blue);
 }

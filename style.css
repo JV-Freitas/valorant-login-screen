@@ -184,6 +184,9 @@ main {
   margin-bottom: 5px;
   font-weight: 700;
 }
+.login-link:hover {
+  filter: brightness(10%);
+}
 
 .wrapper {
   width: 100%;

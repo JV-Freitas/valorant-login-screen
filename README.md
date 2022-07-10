@@ -1,4 +1,4 @@
-# valorantb login screen
+# valorant login screen
 
 Clone UI Valorant Login Screen.
 

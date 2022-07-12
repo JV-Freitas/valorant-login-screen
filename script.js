@@ -1,5 +1,7 @@
 const inputs = document.querySelectorAll('.input');
 const button = document.querySelector('.login-button');
+const togglePassword = document.querySelector('#togglePassword');
+const input = document.querySelector('#password');
 
 const handleFocus = ({ target }) => {
   const span = target.previousElementSibling;
@@ -27,9 +29,9 @@ inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
 inputs.forEach((input) => input.addEventListener('input', handleChange));
 
-const togglePassword = document.querySelector('#togglePassword');
+const handleIcon = () => {};
+
 togglePassword.addEventListener('click', function () {
-  const input = document.querySelector('#password');
   if (input.getAttribute('type') == 'password') {
     input.setAttribute('type', 'text');
   } else {

@@ -29,7 +29,9 @@ inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
 inputs.forEach((input) => input.addEventListener('input', handleChange));
 
-const handleIcon = () => {};
+const handleIcon = () => {
+  togglePassword.setAttribute('class', 'bi togglePassword bi-eye-slash');
+};
 
 togglePassword.addEventListener('click', function () {
   if (input.getAttribute('type') == 'password') {
@@ -38,3 +40,5 @@ togglePassword.addEventListener('click', function () {
     input.setAttribute('type', 'password');
   }
 });
+
+input.addEventListener('focus', handleIcon);

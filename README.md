@@ -1,5 +1,10 @@
-# Valorant login screen
+# Clone UI Valorant login screen.
 
-Clone UI Valorant Login Screen.
+#### Tela de login full screen
+![fullscreen](https://github.com/JV-Freitas/valorant-login-screen/blob/main/Assets/to-readme/full-screen.png)
 
---Clone da tela de login do Valorant Versão 52.0.1
+#### Dados nos inputs
+![imagem com dados](https://github.com/JV-Freitas/valorant-login-screen/blob/main/Assets/to-readme/data-input.png)
+
+#### Resolução minima
+![resolução de 500px](https://github.com/JV-Freitas/valorant-login-screen/blob/main/Assets/to-readme/min.png)
